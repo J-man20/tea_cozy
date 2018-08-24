@@ -6,3 +6,13 @@ body{
   background-color: black;
   opacity: 0.9;
 }
+
+/* Header */
+#header{
+  display: flex;
+justify-content: space-between;
+  position: fixed;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+}
