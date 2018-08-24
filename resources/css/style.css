@@ -50,6 +50,8 @@ body{
   margin-right: 10px;
 }
 
+/* Our Mission */
+
 #mission{
   display: flex;
   flex-direction: column;
@@ -67,4 +69,53 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+/*Tea of the Month/Featured Tea */
+#eaturedtea{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 1000px;
+}
+
+.featuredtea-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 1000px;
+}
+
+.images{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 1000px;
+}
+
+.blitz{
+  width: 300px;
+  height: 200px;
+}
+
+.rum{
+  width: 300px;
+  height: 200px;
+}
+
+.donut{
+  width: 300px;
+  height: 200px;
+}
+
+.myrtle{
+  width: 300px;
+  height: 200px;
+}
+
+.bedford{
+  width: 300px;
+  height: 200px;
 }
