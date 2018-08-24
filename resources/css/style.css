@@ -10,9 +10,43 @@ body{
 /* Header */
 #header{
   display: flex;
-justify-content: space-between;
+  justify-content: space-between;
+  flex-direction: row;
   position: fixed;
   height: 69px;
+  width: 100%;
   border-bottom: 1px solid seashell;
   background-color: black;
+
+}
+
+#logo{
+  display: flex;
+  align-items: center;
+}
+
+#logo img{
+  height: 50px;
+  margin-left: 10px;
+}
+
+#navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#navigation ul{
+  display: flex;
+  flex-direction: row;
+  text-decoration: underline;
+  list-style-type:none;
+
+}
+
+#navigation a{
+  color:seashell;
+  flex-direction: row;
+  margin-left: 10px;
+  margin-right: 10px;
 }
