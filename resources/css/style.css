@@ -72,7 +72,7 @@ body{
 }
 
 /*Tea of the Month/Featured Tea */
-#eaturedtea{
+#featuredtea{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -85,37 +85,43 @@ body{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 1000px;
+
 }
 
-.images{
+#images{
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  width: 1000px;
+  justify-content: center;
+  align-items: center;
 }
 
 .blitz{
+  display: flex;
   width: 300px;
   height: 200px;
 }
 
 .rum{
+  display: flex;
   width: 300px;
   height: 200px;
 }
 
 .donut{
+  display: flex;
   width: 300px;
   height: 200px;
 }
 
 .myrtle{
+  display: flex;
   width: 300px;
   height: 200px;
 }
 
 .bedford{
+  display: flex;
   width: 300px;
   height: 200px;
 }
