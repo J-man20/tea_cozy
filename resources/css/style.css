@@ -145,28 +145,25 @@ body{
   background-image: url("../images/img-locations-background.jpg");
   height: 570px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+
 }
 
 #location-text{
-  display: inline-flex;
+  display: flex;
   justify-content: center;
 }
 
-#downtown, #bayside, #oakdale{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-direction: column;
+.downtown, .bayside, .oakdale{
+  display:flex;
+  justify-content: center;
+  align-items: flex-start;
+  align-content:space-around;
+  text-align: center;
   background-color: black;
   width: 300px;
-  height: 300px;
+  height: 310px;
   margin-top: 15px;
   margin-left: 40px;
-}
-
-
-.area{
-text-align: center;
 }
