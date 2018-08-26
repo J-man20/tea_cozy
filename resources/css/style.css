@@ -17,6 +17,7 @@ body{
   width: 100%;
   border-bottom: 1px solid seashell;
   background-color: black;
+
 }
 
 #logo{
@@ -64,6 +65,7 @@ body{
 
 .mission-text{
   background-color: black;
+  margin-top: 150px;
   width:1200px;
   display: flex;
   flex-direction: column;
@@ -87,6 +89,8 @@ body{
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-top: 10px;
+  padding: 10px;
 
 }
 
