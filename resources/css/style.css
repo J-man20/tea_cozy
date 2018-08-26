@@ -145,7 +145,7 @@ body{
   background-image: url("../images/img-locations-background.jpg");
   width: 1200px;
   height: 570px;
-  
+
 }
 
 .location-text {
@@ -159,15 +159,22 @@ body{
   justify-content: center;
 }
 
-.downtown , .bayside , .oakdale{
+.downtown, .bayside, .oakdale{
   background-color: black;
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-top: 15px;
   margin-left: 40px;
   width:300px;
   opacity: 1;
 }
 
+.area{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
 /*Footer */
