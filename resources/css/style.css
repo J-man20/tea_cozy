@@ -161,9 +161,6 @@ body{
 
 .downtown, .bayside, .oakdale{
   background-color: black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin-top: 15px;
   margin-left: 40px;
   width:300px;
@@ -178,3 +175,12 @@ body{
 }
 
 /*Footer */
+.info{
+  text-align: center;
+  height: 200px;
+}
+
+.copyrights{
+  text-align: left;
+  margin-left: 20px;
+}
